@@ -1,0 +1,98 @@
+
+* {
+    
+    padding: .1rem;
+    box-sizing: border-box;
+    color: rgb(32, 20, 199);
+    font-family: "Enriqueta" serif;
+    font-weight: 700;
+    font-size: 2vh;
+    
+}
+
+body {
+    background-color: darkgray;
+}
+
+.headline {
+    width: 100%;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: "Dancing Script";
+    font-weight: 600;
+    font-size: 2vh;
+
+
+    p {
+    color: red;
+    font-size: 2rem;
+    
+    }
+}
+
+
+li {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+h1 {
+    font-size: 5vh;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 3vh;
+    font-weight: 900;
+    font-style: italic;
+    color: red;
+}
+
+h3 {
+    font-size: 2vh;
+    font-weight: 600;
+}
+
+.content {
+   
+    
+    /*   border: 2px solid red;  */
+    ul {
+        border-top: 2px solid red; 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 50px;
+        padding-right: 50px;
+
+        li {
+         /*   border: 2px solid red;  */
+            margin-left: 1rem;
+        }
+        
+        
+    }
+    ol {
+        border-top: 2px solid red;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+
+.hero {
+    background-color: darkgray;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-shadow: 7px 7px 10px darkred;
+    font-family: "Dancing Script";
+    font-weight: 600;
+    font-size: 2vh;
+    
+
+    img {
+    width: 100%;
+    }
+   
+}
